@@ -1,4 +1,4 @@
-# 🌿 Lurahgo — Management System RT/RW
+# Lurahgo — Management System RT/RW
 
 > Solusi digital untuk mengelola data kependudukan, administrasi RT/RW, dan komunikasi warga secara efisien.
 
@@ -10,29 +10,29 @@
 
 ---
 
-## 📋 Tentang Lurahgo
+## Tentang Lurahgo
 
 **Lurahgo** adalah sistem manajemen RT/RW berbasis web yang dirancang untuk membantu pengurus lingkungan dalam mengelola data warga, administrasi, dan aktivitas secara digital. Dengan antarmuka yang modern dan mudah digunakan, Lurahgo menjadi solusi tepat untuk mewujudkan lingkungan yang lebih tertata.
 
-### ✨ Fitur Utama
+### Fitur Utama
 
 | Fitur | Deskripsi |
-|-------|------------|
-| 👥 **Manajemen Data Warga** | CRUD lengkap data warga dengan filter dan pencarian |
-| 🏠 **Pendataan Kartu Keluarga** | Kelola data KK beserta anggota keluarga |
-| 📊 **Dashboard Statistik** | Visualisasi data dengan grafik interaktif |
-| 🔐 **Multi-level Role** | Admin, Ketua RT, dan User dengan akses berbeda |
-| 📢 **Pengumuman Warga** | Informasi penting dapat disampaikan secara real-time |
-| 📝 **Riwayat Aktivitas** | Audit log untuk setiap perubahan data |
-| 📑 **Mutasi Warga** | Catat perpindahan penduduk (datang, pindah, meninggal) |
-| 🖼️ **Galeri Kegiatan** | Dokumentasi kegiatan lingkungan |
+|---|---|
+| **Manajemen Data Warga** | CRUD lengkap data warga dengan filter dan pencarian |
+| **Pendataan Kartu Keluarga** | Kelola data KK beserta anggota keluarga |
+| **Dashboard Statistik** | Visualisasi data dengan grafik interaktif |
+| **Multi-level Role** | Admin, Ketua RT, dan User dengan akses berbeda |
+| **Pengumuman Warga** | Informasi penting dapat disampaikan secara real-time |
+| **Riwayat Aktivitas** | Audit log untuk setiap perubahan data |
+| **Mutasi Warga** | Catat perpindahan penduduk (datang, pindah, meninggal) |
+| **Galeri Kegiatan** | Dokumentasi kegiatan lingkungan |
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 | Teknologi | Keterangan |
-|-----------|-------------|
+|---|---|
 | PHP 8.0+ | Backend logic & authentication |
 | MySQL 8.0 | Database penyimpanan data |
 | TailwindCSS 3.0 | Styling modern & responsif |
@@ -41,17 +41,19 @@
 
 ---
 
-## ⚙️ Cara Install
+## Cara Install
 
 ### Persyaratan
+
 - PHP 8.0 atau lebih tinggi
 - MySQL 8.0 atau lebih tinggi
 - Web Server (XAMPP / Laragon / Apache)
 
 ### Langkah-langkah
+
 ```bash
 # 1. Clone repository
-git clone https://github.com/Ramardooooo/project_rt_Rw.git
+git clone https://github.com/Ramardooooo/LurahGo.git
 
 # 2. Pindahkan ke folder server
 # XAMPP   → htdocs/
@@ -64,6 +66,4 @@ git clone https://github.com/Ramardooooo/project_rt_Rw.git
 
 # 4. Konfigurasi database
 # Edit file config/database.php
-
-
-
+```
